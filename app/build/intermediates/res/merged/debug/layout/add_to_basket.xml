@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.example.shubham.navigationdrawer.AddToBasket">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_add_to_basket"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:theme="@style/ToolBarStyle"
+        android:background="@color/actionbar_color">
+
+        <TextView
+            android:id="@+id/textviewtoolbarbasket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="@color/white" />
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingTop="6dip"
+        android:textColor="#000000"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:layout_below="@+id/item_name"
+        android:id="@+id/item_description"
+        android:layout_marginRight="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:textColor="#acabac"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="15dp"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="15dp">
+
+        <TextView
+            android:text="Basic Price"
+            android:layout_below="@+id/item_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dip"
+            android:paddingTop="6dip"
+            android:layout_weight="1"
+            android:textColor="#323"
+            android:gravity="left"
+            android:textSize="16dp"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginRight="15dp"
+            android:id="@+id/Rs"
+            android:text="Rs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dip"
+            android:paddingTop="6dip"
+            android:textColor="#323"
+            android:textSize="15dp"/>
+
+
+        <TextView
+            android:layout_marginRight="15dp"
+            android:id="@+id/item_price"
+            android:layout_toRightOf="@+id/Rs"
+            android:gravity="right"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dip"
+            android:paddingTop="6dip"
+            android:textColor="#323"
+            android:textSize="15dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.001sp"
+        android:background="#c1c1c1"/>
+
+    <TextView
+        android:layout_marginLeft="15dp"
+        android:text="Quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingTop="6dip"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="18dp"/>
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/nullbutton"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_gravity="center_horizontal"/>
+
+
+        <ImageView
+            android:clickable="true"
+            android:id="@+id/minus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/minus"
+            android:layout_marginLeft="30dp"
+            android:layout_gravity="center_vertical|left"/>
+
+        <TextView
+            android:clickable="true"
+            android:id="@+id/item_quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:text="1"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/plus"
+            android:layout_marginRight="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/plus"
+            android:layout_gravity="center_vertical|right"/>
+
+
+    </FrameLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="15dp">
+
+        <TextView
+            android:text="Total"
+            android:layout_below="@+id/item_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dip"
+            android:paddingTop="6dip"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:textSize="18dp"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginRight="15dp"
+                android:id="@+id/RS"
+                android:text="Rs"
+                android:gravity="right"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="2dip"
+                android:paddingTop="6dip"
+                android:textColor="#323"
+                android:textSize="15dp"/>
+
+        <TextView
+            android:layout_marginRight="15dp"
+            android:id="@+id/total_price"
+            android:gravity="right"
+            android:layout_toRightOf="@+id/RS"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dip"
+            android:paddingTop="6dip"
+            android:textColor="#323"
+            android:textSize="15dp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+
+    <Button
+        android:id="@+id/btn_basket"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/show_rest_button"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textAllCaps="false"
+        android:text="Add to Basket"
+        android:layout_gravity="center_horizontal" />
+    
+
+</LinearLayout>

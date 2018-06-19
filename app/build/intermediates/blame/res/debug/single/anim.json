@@ -1,0 +1,170 @@
+[
+    {
+        "merged": "C:\\Users\\SHUBHAM\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "C:\\Users\\SHUBHAM\\.android\\build-cache\\bcb9e683b9af947283e0261ea2ea10ae5375c7a3\\output\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\rotate_forward.xml",
+        "source": "D:\\AndroidStudioProjects\\NavigationDrawer\\app\\src\\main\\res\\anim\\rotate_forward.xml"
+    },
+    {
+        "merged": "C:\\Users\\SHUBHAM\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\rotate_forward.xml",
+        "source": "C:\\Users\\SHUBHAM\\AndroidStudioProjects\\NavigationDrawer\\app\\src\\main\\res\\anim\\rotate_forward.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\nex3vwn\\.android\\build-cache\\4bb58fd46bbc066ab9719cb153b8c77e3fffc405\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
+        "source": "C:\\Users\\nex3vwn\\.android\\build-cache\\afc38d47c43121315f6fd99bc07f8f1ffac55013\\output\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_anim.xml",
+        "source": "D:\\AndroidStudioProjects\\NavigationDrawer\\app\\src\\main\\res\\anim\\dialog_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\SHUBHAM\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\SHUBHAM\\.android\\build-cache\\2447d2e0e2dab0cc7bfe0db80052cc7d02216e68\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\SHUBHAM\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\SHUBHAM\\.android\\build-cache\\2447d2e0e2dab0cc7bfe0db80052cc7d02216e68\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\SHUBHAM\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\SHUBHAM\\.android\\build-cache\\2447d2e0e2dab0cc7bfe0db80052cc7d02216e68\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\SHUBHAM\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\SHUBHAM\\.android\\build-cache\\2447d2e0e2dab0cc7bfe0db80052cc7d02216e68\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\SHUBHAM\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\translate.xml",
+        "source": "C:\\Users\\SHUBHAM\\AndroidStudioProjects\\NavigationDrawer\\app\\src\\main\\res\\anim\\translate.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\nex3vwn\\.android\\build-cache\\4bb58fd46bbc066ab9719cb153b8c77e3fffc405\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\nex3vwn\\.android\\build-cache\\4bb58fd46bbc066ab9719cb153b8c77e3fffc405\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\nex3vwn\\.android\\build-cache\\afc38d47c43121315f6fd99bc07f8f1ffac55013\\output\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\nex3vwn\\.android\\build-cache\\4bb58fd46bbc066ab9719cb153b8c77e3fffc405\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\nex3vwn\\.android\\build-cache\\4bb58fd46bbc066ab9719cb153b8c77e3fffc405\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\SHUBHAM\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\SHUBHAM\\.android\\build-cache\\2447d2e0e2dab0cc7bfe0db80052cc7d02216e68\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\translate.xml",
+        "source": "D:\\AndroidStudioProjects\\NavigationDrawer\\app\\src\\main\\res\\anim\\translate.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\nex3vwn\\.android\\build-cache\\4bb58fd46bbc066ab9719cb153b8c77e3fffc405\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\nex3vwn\\.android\\build-cache\\afc38d47c43121315f6fd99bc07f8f1ffac55013\\output\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\text_logo.xml",
+        "source": "D:\\AndroidStudioProjects\\NavigationDrawer\\app\\src\\main\\res\\anim\\text_logo.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\nex3vwn\\.android\\build-cache\\4bb58fd46bbc066ab9719cb153b8c77e3fffc405\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\nex3vwn\\.android\\build-cache\\4bb58fd46bbc066ab9719cb153b8c77e3fffc405\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\rotate_backward.xml",
+        "source": "D:\\AndroidStudioProjects\\NavigationDrawer\\app\\src\\main\\res\\anim\\rotate_backward.xml"
+    },
+    {
+        "merged": "C:\\Users\\SHUBHAM\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\rotate_backward.xml",
+        "source": "C:\\Users\\SHUBHAM\\AndroidStudioProjects\\NavigationDrawer\\app\\src\\main\\res\\anim\\rotate_backward.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\nex3vwn\\.android\\build-cache\\4bb58fd46bbc066ab9719cb153b8c77e3fffc405\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\SHUBHAM\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\SHUBHAM\\.android\\build-cache\\2447d2e0e2dab0cc7bfe0db80052cc7d02216e68\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\SHUBHAM\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\SHUBHAM\\.android\\build-cache\\2447d2e0e2dab0cc7bfe0db80052cc7d02216e68\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\SHUBHAM\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\text_logo.xml",
+        "source": "C:\\Users\\SHUBHAM\\AndroidStudioProjects\\NavigationDrawer\\app\\src\\main\\res\\anim\\text_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\SHUBHAM\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\SHUBHAM\\.android\\build-cache\\2447d2e0e2dab0cc7bfe0db80052cc7d02216e68\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\SHUBHAM\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_anim.xml",
+        "source": "C:\\Users\\SHUBHAM\\AndroidStudioProjects\\NavigationDrawer\\app\\src\\main\\res\\anim\\dialog_anim.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_open.xml",
+        "source": "D:\\AndroidStudioProjects\\NavigationDrawer\\app\\src\\main\\res\\anim\\fab_open.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_close.xml",
+        "source": "D:\\AndroidStudioProjects\\NavigationDrawer\\app\\src\\main\\res\\anim\\fab_close.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\nex3vwn\\.android\\build-cache\\4bb58fd46bbc066ab9719cb153b8c77e3fffc405\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "C:\\Users\\nex3vwn\\.android\\build-cache\\afc38d47c43121315f6fd99bc07f8f1ffac55013\\output\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\SHUBHAM\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\SHUBHAM\\.android\\build-cache\\2447d2e0e2dab0cc7bfe0db80052cc7d02216e68\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\SHUBHAM\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
+        "source": "C:\\Users\\SHUBHAM\\.android\\build-cache\\bcb9e683b9af947283e0261ea2ea10ae5375c7a3\\output\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\SHUBHAM\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_open.xml",
+        "source": "C:\\Users\\SHUBHAM\\AndroidStudioProjects\\NavigationDrawer\\app\\src\\main\\res\\anim\\fab_open.xml"
+    },
+    {
+        "merged": "C:\\Users\\SHUBHAM\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\SHUBHAM\\.android\\build-cache\\bcb9e683b9af947283e0261ea2ea10ae5375c7a3\\output\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\SHUBHAM\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_close.xml",
+        "source": "C:\\Users\\SHUBHAM\\AndroidStudioProjects\\NavigationDrawer\\app\\src\\main\\res\\anim\\fab_close.xml"
+    },
+    {
+        "merged": "C:\\Users\\SHUBHAM\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\SHUBHAM\\.android\\build-cache\\2447d2e0e2dab0cc7bfe0db80052cc7d02216e68\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\SHUBHAM\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\SHUBHAM\\.android\\build-cache\\bcb9e683b9af947283e0261ea2ea10ae5375c7a3\\output\\res\\anim\\design_snackbar_in.xml"
+    }
+]

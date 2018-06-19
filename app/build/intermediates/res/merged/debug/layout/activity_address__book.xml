@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.example.shubham.navigationdrawer.Address_Book">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_address_book"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:theme="@style/ToolBarStyle"
+        android:background="@color/actionbar_color">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address Book"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="@color/white"/>
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose your Address"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif-medium"/>
+
+    <ListView
+        android:divider="@drawable/list_divider"
+        android:dividerHeight="4px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_address"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"/>
+
+
+</LinearLayout>

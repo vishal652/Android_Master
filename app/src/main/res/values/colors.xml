@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="header">#FF20B3AC</color>
+    <color name="bg_login">#26ae90</color>
+    <color name="bg_register">#2e3237</color>
+    <color name="bg_main">#428bca</color>
+    <color name="white">#ffffff</color>
+    <color name="input_login">#222222</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register">#888888</color>
+    <color name="input_register_bg">#3b4148</color>
+    <color name="input_register_hint">#5e6266</color>
+    <color name="btn_login">#26ae90</color>
+    <color name="btn_login_bg">#eceef1</color>
+    <color name="lbl_name">#333333</color>
+    <color name="btn_logut_bg">#ff6861</color>
+    <color name="fragment_bg">#e5e5e5</color>
+
+    <color name="colorFAB1">#2196F3</color>
+    <color name="colorFAB2">#E040FB</color>
+
+    <color name="notselect">#73a7cf</color>
+    <color name="select">#f27916</color>
+    <color name="check">#d1e4f5</color>
+
+    <color name="actionbar_color">#fa4d9ad1</color>
+    <color name="Color_Name">#1041d2</color>
+
+    <color name="navc">#f27916</color>
+    <color name="navp">#f27916</color>
+    <color name="nava">#b2b4b3</color>
+    <color name="nav.item.background">#ffffff</color>
+    <color name="nav.item.background.default">#9b9a9b</color>
+
+    <color name="dark_black">#000000</color>
+    <color name="dialog">#ea3b9303</color>
+</resources>

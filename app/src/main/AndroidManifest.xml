@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shubham.navigationdrawer">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/tbmpf"
+        android:label="TiredBuzz"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Open" />
+        <activity
+            android:name=".LoginFrom"
+            android:windowSoftInputMode="stateVisible" />
+        <activity
+            android:name=".RegisterForm"
+            android:windowSoftInputMode="stateVisible" />
+        <activity android:name=".Invite_Friends" />
+        <activity android:name=".Address" />
+        <activity android:name=".Offers" />
+        <activity android:name=".Account" />
+        <activity
+            android:name=".AccountNameChange"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Forgot_Password"
+            android:windowSoftInputMode="stateVisible" />
+        <activity android:name=".NewResetPassword" />
+        <activity android:name=".DeliveryMenu" />
+        <activity android:name=".ProductItem" />
+        <activity android:name=".AddToBasket" />
+        <activity android:name=".Base" />
+        <activity android:name=".Basket" />
+        <activity android:name=".Checkout" />
+        <activity android:name=".Delivery_Address" />
+        <activity android:name=".Address_Book" />
+        <activity android:name=".Checkout_Addn_Phone" />
+        <activity android:name=".Checkout_Pay" />
+        <activity android:name=".Checkout_Details"></activity>
+        <receiver android:name=".NotificationPublisher" />
+
+
+
+
+        <service
+            android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+
+        <service
+            android:name=".MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+
+    </application>
+
+</manifest>

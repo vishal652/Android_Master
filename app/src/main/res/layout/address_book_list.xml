@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="TiredBuzz"
+        android:id="@+id/company_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:textColor="#323"
+        android:layout_marginLeft="8dp"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/uid"
+        android:layout_toRightOf="@+id/company_add"
+        android:layout_marginLeft="16dp"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:text="Flat No. / House No.: "
+        android:id="@+id/random_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/company_add"
+        android:paddingBottom="2dip"
+        android:textColor="#323"
+        android:layout_marginLeft="8dp"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:text="503 "
+        android:id="@+id/flatno_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/company_add"
+        android:layout_toRightOf="@+id/random_name"
+        android:paddingBottom="2dip"
+        android:textColor="#323"
+        android:layout_marginLeft="8dp"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:text="Dap Pg "
+        android:id="@+id/apartment_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/random_name"
+        android:paddingBottom="2dip"
+        android:textColor="#323"
+        android:layout_marginLeft="8dp"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:text="Sector 126 "
+        android:id="@+id/location_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/apartment_add"
+        android:paddingBottom="2dip"
+        android:textColor="#323"
+        android:layout_marginLeft="8dp"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:text="Landmark: "
+        android:id="@+id/random2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/location_add"
+        android:paddingBottom="2dip"
+        android:textColor="#323"
+        android:layout_marginLeft="8dp"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:text="Addres others "
+        android:id="@+id/other_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/location_add"
+        android:layout_toRightOf="@+id/random2"
+        android:paddingBottom="2dip"
+        android:textColor="#323"
+        android:layout_marginLeft="8dp"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:text="Postcode "
+        android:id="@+id/postcode_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/random2"
+        android:paddingBottom="2dip"
+        android:textColor="#323"
+        android:layout_marginLeft="8dp"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:text="Noida "
+        android:id="@+id/city_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/postcode_add"
+        android:paddingBottom="2dip"
+        android:textColor="#323"
+        android:layout_marginLeft="8dp"
+        android:textSize="15dp"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/next"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>

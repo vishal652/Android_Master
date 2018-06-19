@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "30382385957",
+    "firebase_url": "https://newsapp-542b8.firebaseio.com",
+    "project_id": "newsapp-542b8",
+    "storage_bucket": "newsapp-542b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30382385957:android:12fc973763e355e4",
+        "android_client_info": {
+          "package_name": "com.example.shubham.navigationdrawer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30382385957-dsalebb05jcdbjco7fcg5gk3d6qri7n5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFAT8lAyk2zEElTT91HbpcGjs9GOzq_7g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

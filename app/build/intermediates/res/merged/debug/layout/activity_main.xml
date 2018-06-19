@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/toas" >
+
+    <ImageView
+        android:id="@+id/ivlogo"
+        android:layout_height="75dp"
+        android:layout_width="75dp"
+        android:src="@drawable/tbmpf"
+        android:contentDescription="logo"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@null" />
+
+    <TextView
+        android:id="@+id/tvlogo"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:fontFamily="lucida-grande,tahoma,verdana,Arial,sans-serif"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:text="tiredbuzz"
+        android:layout_below="@+id/ivlogo"
+        android:layout_centerInParent="true"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/ivwifi"
+        android:layout_height="25dp"
+        android:layout_width="25dp"
+        android:contentDescription="wifi_status"
+        android:src="@drawable/nowifi"
+        android:layout_below="@id/tvlogo"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tvnoconn"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="No Internet connection"
+        android:layout_below="@+id/ivwifi"
+        android:layout_centerInParent="true"
+        android:textColor="#ffffff"
+
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btntry"
+        android:text="Try again"
+        android:visibility="invisible"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/tvnoconn"
+        android:layout_centerInParent="true" />
+
+
+
+
+</RelativeLayout>

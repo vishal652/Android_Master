@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group
+        android:id="@+id/gnew"
+        android:checkableBehavior="single">
+        <item
+            android:checked="true"
+            android:id="@+id/adress"
+            android:icon="@drawable/placeholder"
+            android:title="Address" />
+
+
+        <item
+            android:visible="false"
+            android:checked="true"
+            android:id="@+id/restaraunts"
+            android:icon="@drawable/restaurnts"
+            android:title="Restaraunts" />
+
+
+        <item
+            android:checked="true"
+            android:id="@+id/payments"
+            android:icon="@drawable/pay"
+            android:title="Payments" />
+
+
+        <item
+            android:checked="true"
+            android:id="@+id/orders"
+            android:icon="@drawable/order"
+            android:title="Orders" />
+
+
+
+        <item
+            android:checked="true"
+            android:id="@+id/account"
+            android:icon="@drawable/ic_perm_identity_black_24dp"
+            android:title="Account" />
+
+
+
+        <item
+            android:visible="false"
+            android:checked="true"
+            android:id="@+id/address_book"
+            android:icon="@drawable/placeholder"
+            android:title="Address Book" />
+
+
+        <item
+            android:checked="true"
+            android:id="@+id/offers"
+            android:icon="@drawable/sales"
+            android:title="Offers" />
+
+        <item
+            android:checked="true"
+            android:id="@+id/invite"
+            android:icon="@drawable/share"
+            android:title="Invite" />
+
+
+        <item
+            android:checked="true"
+            android:id="@+id/chat"
+            android:icon="@drawable/chat"
+            android:title="Chat with us" />
+        <item
+            android:checked="true"
+            android:id="@+id/feedback"
+            android:icon="@drawable/envelope"
+            android:title="Send Feedback" />
+    </group>
+
+
+
+
+
+
+
+    <!--<item android:title="@string/nav_sub_menu"-->
+        <!--android:checked="true">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/navigation_sub_item_01"-->
+
+                <!--android:title="@string/nav_sub_menu_item01" />-->
+            <!--<item-->
+                <!--android:id="@+id/navigation_sub_item_02"-->
+
+                <!--android:title="@string/nav_sub_menu_item02" />-->
+        <!--</menu>-->
+    <!--</item>-->
+
+</menu>

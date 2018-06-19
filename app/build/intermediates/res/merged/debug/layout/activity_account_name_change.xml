@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.shubham.navigationdrawer.AccountNameChange">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_account_name_change"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:theme="@style/ToolBarStyle"
+        android:background="@color/actionbar_color">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter your name"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            />
+    </android.support.v7.widget.Toolbar>
+
+
+    <EditText
+        android:theme="@style/EditTextHint"
+        android:id="@+id/editname"
+        android:layout_below="@+id/toolbar_account_name_change"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="25"
+        />
+
+    <LinearLayout
+        android:layout_marginRight="-8dp"
+        android:layout_marginLeft="-8dp"
+        android:padding="7dp"
+        android:layout_marginBottom="-5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom">
+
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:background="#ffffff"
+            android:text="Cancel"
+            android:textAllCaps="false"
+            android:layout_marginRight="0dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnOK"
+            android:background="#ffffff"
+            android:textAllCaps="false"
+            android:text="OK"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

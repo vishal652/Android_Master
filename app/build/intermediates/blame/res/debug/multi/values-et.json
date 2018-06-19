@@ -1,0 +1,50 @@
+[
+    {
+        "outputFile": "D:\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-et\\values-et.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 242,
+                    "endOffset": 343
+                },
+                "from": {
+                    "file": "C:\\Users\\nex3vwn\\.android\\build-cache\\0ecfee730b7638af08ad52a55d5ff7e20ee62962\\output\\res\\values-et\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 343,
+                        "endColumn": 242,
+                        "endOffset": 581
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\SHUBHAM\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-et\\values-et.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 242,
+                    "endOffset": 343
+                },
+                "from": {
+                    "file": "C:\\Users\\SHUBHAM\\.android\\build-cache\\6e2875aef3945ff7fa03b6d832ca0add2515a089\\output\\res\\values-et\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 343,
+                        "endColumn": 242,
+                        "endOffset": 581
+                    }
+                }
+            }
+        ]
+    }
+]

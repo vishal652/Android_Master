@@ -1,0 +1,164 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <android.support.design.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <!--<LinearLayout-->
+            <!--android:orientation="vertical"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+        <!--<android.support.design.widget.AppBarLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/appbar"-->
+            <!--android:theme="@style/ThemeOverlay.AppCompat.Dark">-->
+
+  <!--&lt;!&ndash;          <android.support.design.widget.CollapsingToolbarLayout-->
+                <!--android:id="@+id/collapsing_toolbar"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--app:contentScrim="?attr/colorPrimary"-->
+                <!--app:layout_scrollFlags="scroll|exitUntilCollapsed">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:scaleType="centerCrop"-->
+                    <!--android:background="@drawable/time"-->
+                    <!--app:layout_collapseMode="parallax" />-->
+
+
+
+
+
+            <!--</android.support.design.widget.CollapsingToolbarLayout>-->
+      <!--&ndash;&gt;-->
+            <!--<android.support.v7.widget.Toolbar-->
+                <!--android:id="@+id/toolbar1"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="?attr/actionBarSize"-->
+                <!--android:background="?attr/colorPrimary"-->
+                <!--app:layout_scrollFlags="scroll|enterAlways" />-->
+
+
+
+            <!--&lt;!&ndash;<android.support.design.widget.TabLayout&ndash;&gt;-->
+                <!--&lt;!&ndash;android:id="@+id/tablayout"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
+                <!--&lt;!&ndash;app:tabGravity="fill"&ndash;&gt;-->
+                <!--&lt;!&ndash;app:tabMode="fixed"&ndash;&gt;-->
+                <!--&lt;!&ndash;/>&ndash;&gt;-->
+
+        <!--</android.support.design.widget.AppBarLayout>-->
+
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:layout_marginTop="5dp">-->
+
+            <!--<TextView-->
+                <!--android:layout_marginLeft="15dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/count"-->
+                <!--android:textStyle="bold"-->
+                <!--android:textColor="#fc595959"-->
+                <!--android:layout_marginRight="3dp"/>-->
+
+
+
+
+
+            <!--</LinearLayout>-->
+
+            <!--<View-->
+                <!--android:layout_marginTop="3dp"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="2dp"-->
+                <!--android:background="@drawable/list_divider"/>-->
+
+            <!--<ListView-->
+                <!--android:divider="@drawable/list_divider"-->
+                <!--android:dividerHeight="4px"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/listView" />-->
+
+
+        <!--</LinearLayout>-->
+    <!--    <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffe5e5e5"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="10dp">
+
+                <include layout="@layout/card_layout" />
+
+                <include layout="@layout/card_layout" />
+
+                <include layout="@layout/card_layout" />
+
+            </LinearLayout>
+
+        </android.support.v4.widget.NestedScrollView>
+
+-->
+
+        <!--<android.support.v4.view.ViewPager-->
+            <!--android:id="@+id/viewpager"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent" />-->
+
+
+
+
+    </android.support.design.widget.CoordinatorLayout>
+
+
+    <!--   <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+
+          <include layout="@layout/tool_bar" />
+
+
+       </LinearLayout>
+   -->
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="310dp"
+        android:layout_marginEnd="10dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:itemTextColor="@drawable/nav_item_text"
+        app:headerLayout="@layout/drawer_header"
+        app:menu="@menu/header"
+        app:itemIconTint="#f27c21"
+        app:elevation="6dp"
+        android:backgroundTint="#f2eef2"
+        app:itemBackground="@drawable/drawer_list_selector"
+        app:itemTextAppearance="@style/NavDrawerTextStyle" />
+</android.support.v4.widget.DrawerLayout>

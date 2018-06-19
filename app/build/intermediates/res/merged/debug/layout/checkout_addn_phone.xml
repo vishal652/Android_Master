@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/checkout_addn_phone"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.shubham.navigationdrawer.Checkout_Addn_Phone">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_invite"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:theme="@style/ToolBarStyle"
+        android:background="@color/actionbar_color">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Checkout"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="@color/white" />
+    </android.support.v7.widget.Toolbar>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/actionbar_color"/>
+
+        <LinearLayout
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical|end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_gravity="center_vertical|end"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total"
+                android:textSize="16dp"
+                android:layout_marginRight="5dp"/>
+
+            <TextView
+                android:visibility="invisible"
+                android:id="@+id/checkout_total_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_gravity="center_vertical|end"
+                android:layout_marginRight="10dp"/>
+        </LinearLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delivery Address"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/dark_black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/choose_add"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="16dp"
+            android:gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose Address"
+            android:textColor="#32bc07"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="16dp"/>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telephone Number"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/dark_black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/phoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Number"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="16dp"/>
+
+    <Button
+        android:visibility="visible"
+        android:id="@+id/btn_select_add_phone"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:drawableRight="@drawable/right_arrow"
+        android:paddingRight="15dp"
+        android:background="@drawable/button_control"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textAllCaps="false"
+        android:text="Select"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

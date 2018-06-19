@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+    <TextView
+        android:id="@+id/cart_quan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingTop="6dip"
+        android:textColor="#04bc11"
+        android:layout_marginLeft="8dp"
+        android:textSize="15dp"/>
+
+
+    <TextView
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/cart_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingTop="6dip"
+        android:textColor="#080808"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:gravity="right"
+        android:text="Rs"
+        android:id="@+id/Rs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingTop="6dip"
+        android:textColor="#323"
+        android:layout_marginLeft="8dp"
+        android:textSize="15dp"/>
+
+    <TextView
+
+        android:id="@+id/cart_item_price"
+        android:layout_toRightOf="@+id/Rs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingTop="6dip"
+        android:textColor="#323"
+        android:layout_marginLeft="5dp"
+        android:textSize="15dp" />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

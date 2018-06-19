@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\nex3vwn\\.android\\build-cache\\afc38d47c43121315f6fd99bc07f8f1ffac55013\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\SHUBHAM\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_appbar_state_list_animator.xml",
+        "source": "C:\\Users\\SHUBHAM\\.android\\build-cache\\bcb9e683b9af947283e0261ea2ea10ae5375c7a3\\output\\res\\anim-v21\\design_appbar_state_list_animator.xml"
+    },
+    {
+        "merged": "C:\\Users\\SHUBHAM\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\SHUBHAM\\.android\\build-cache\\bcb9e683b9af947283e0261ea2ea10ae5375c7a3\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_appbar_state_list_animator.xml",
+        "source": "C:\\Users\\nex3vwn\\.android\\build-cache\\afc38d47c43121315f6fd99bc07f8f1ffac55013\\output\\res\\anim-v21\\design_appbar_state_list_animator.xml"
+    },
+    {
+        "merged": "C:\\Users\\SHUBHAM\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\SHUBHAM\\.android\\build-cache\\bcb9e683b9af947283e0261ea2ea10ae5375c7a3\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\nex3vwn\\.android\\build-cache\\afc38d47c43121315f6fd99bc07f8f1ffac55013\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+    }
+]

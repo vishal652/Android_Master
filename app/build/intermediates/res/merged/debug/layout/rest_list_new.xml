@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/restimage"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+
+    <LinearLayout
+        android:id="@+id/nameonly"
+        android:padding="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@+id/restimage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+    <TextView
+        android:textSize="18dp"
+        android:textColor="#000000"
+        android:id="@+id/idrestname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingTop="6dip"
+         />
+
+
+    <!--<TextView-->
+
+        <!--android:id="@+id/restcityname"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:paddingBottom="2dip"-->
+        <!--android:textStyle="bold"/>-->
+
+
+    <TextView
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:id="@+id/restcitylocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+         />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/typeonly"
+        android:layout_below="@+id/nameonly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@+id/restimage"
+        android:padding="5dp">
+
+        <TextView
+
+            android:textColor="#9f9f9f"
+            android:id="@+id/type"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_below="@+id/typeonly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@+id/restimage"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_alignParentRight="true"
+            android:textColor="#9f9f9f"
+            android:id="@+id/deliverytime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

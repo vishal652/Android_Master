@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\SHUBHAM\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\SHUBHAM\\AndroidStudioProjects\\NavigationDrawer\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\SHUBHAM\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\menu\\del_plus.xml",
+        "source": "C:\\Users\\SHUBHAM\\AndroidStudioProjects\\NavigationDrawer\\app\\src\\main\\res\\menu\\del_plus.xml"
+    },
+    {
+        "merged": "C:\\Users\\SHUBHAM\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\menu\\header.xml",
+        "source": "C:\\Users\\SHUBHAM\\AndroidStudioProjects\\NavigationDrawer\\app\\src\\main\\res\\menu\\header.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "D:\\AndroidStudioProjects\\NavigationDrawer\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\menu\\header.xml",
+        "source": "D:\\AndroidStudioProjects\\NavigationDrawer\\app\\src\\main\\res\\menu\\header.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\menu\\del_plus.xml",
+        "source": "D:\\AndroidStudioProjects\\NavigationDrawer\\app\\src\\main\\res\\menu\\del_plus.xml"
+    }
+]

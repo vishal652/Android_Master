@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\nex3vwn\.android\build-cache\8cb2bf79cc4d52bbbd5c58a5abb9db658f499e11\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0efd1b44f47c134fb245914a1d54a55adbfc2f8d">
+        <dex dex="D:\AndroidStudioProjects\NavigationDrawer\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d17b57288735d97317335a5f50c2c3ea9a3408ea\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\nex3vwn\.android\build-cache\1b85276f7b07930224348a6b082490a7581563a5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="80dd8bea08bc5fe10b10a3243b8279c856ccc690">
+        <dex dex="D:\AndroidStudioProjects\NavigationDrawer\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_79ed535c72ea32c3c81f4356e9d90e681a214429\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudioProjects\NavigationDrawer\volley\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1c6d6e1c266a9cb0f40e57ddb6bce651a1f172fe">
+        <dex dex="D:\AndroidStudioProjects\NavigationDrawer\app\build\intermediates\transforms\dex\debug\folders\1000\4\classes_41fb1627e044e1f2e97df4ab97cec60c7a3c57d6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\nex3vwn\.android\build-cache\168e60cb83661b5f1b08df7d53543c0cf588f13a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1ef72e72bc0d05602c366582afa9439f58bb31d6">
+        <dex dex="D:\AndroidStudioProjects\NavigationDrawer\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_10f85bcb13d63dfaf90a2d3831e2aece28f356a3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\nex3vwn\.android\build-cache\b91b9f742e28245868d9d082a270539a01b7537c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a1c351dc10b92d638da57f3a6513f87cfbdc9f83">
+        <dex dex="D:\AndroidStudioProjects\NavigationDrawer\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_519b392ac238e5429d7ae5af0e81546cd245ccc4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\nex3vwn\.android\build-cache\0ecfee730b7638af08ad52a55d5ff7e20ee62962\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
+        <dex dex="D:\AndroidStudioProjects\NavigationDrawer\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c5b3b804eeeeecf5f1ff75a7f09d67b57c395f40\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\nex3vwn\.android\build-cache\38fe70a247a01d5cc47c4bc9de3000e1d1ff9d3e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1e14ebe1cda8491f152083e752ca5bf73cd37bff">
+        <dex dex="D:\AndroidStudioProjects\NavigationDrawer\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3aebf8ae0993e5483f1253bdd6c26f98239ae4fe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\nex3vwn\.android\build-cache\010cf85e560ce0fd1cc9d9bf801ad03df5c6d2b1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4a36600281a648769411ef642c331851732bf29e">
+        <dex dex="D:\AndroidStudioProjects\NavigationDrawer\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a59b7fcc45fdfc585705f6b43e2d025674f5d221\classes.dex" />
+    </item>
+
+</items>
